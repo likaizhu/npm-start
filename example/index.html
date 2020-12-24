@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<script src="/video.js"></script>
+<!-- <script src="video.min.js"></script> -->
+
+<body>
+  <div id="con1"></div>
+  <!-- <div class="con1"></div> -->
+  <!-- <h1>rmvb</h1>
+  <div id="con1"></div> -->
+  <!-- <h1>mp4</h1> -->
+  <!-- <div id="con2"></div> -->
+  <!-- <h1>mov</h1>
+  <div id="con3"></div>
+  <h1>m4v</h1>
+  <div id="con4"></div> -->
+  <script>
+    // new video('#con1', './libs/test.mp4')
+    // 测试环境 
+    // var options = {
+    //   container: '#con1',
+    //   mediaId: 'qwe1e1e12',
+    //   appId: 'H5',
+    //   appKey: 'adsaadasdasd',
+    //   platform: 'pc'
+    // }
+    // 线上环境
+    var options = {
+      container: '#con1',
+      mediaId: 'qwe1e1e12',
+      appId: 'H5',
+      appKey: 'adsaadasdasd',
+      platform: 'pc'
+    }
+    new video(options)
+  </script>
+</body>
+
+</html>
